@@ -29,11 +29,11 @@ const config = {
 		  </li>`,
     links: [{ text: '', link: '' }],
     search: {
-      enabled: false,
-      indexName: '',
-      algoliaAppId: process.env.GATSBY_ALGOLIA_APP_ID,
-      algoliaSearchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
-      algoliaAdminKey: process.env.ALGOLIA_ADMIN_KEY,
+      "enabled": true,
+  		"indexName": "MY_INDEX_NAME",
+  		"algoliaAppId": process.env.GATSBY_ALGOLIA_APP_ID,
+  		"algoliaSearchKey": process.env.GATSBY_ALGOLIA_SEARCH_KEY,
+  		"algoliaAdminKey": process.env.ALGOLIA_ADMIN_KEY
     },
   },
   sidebar: {
