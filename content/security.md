@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "Security"
 metaTitle: "This is the title tag of this page"
 metaDescription: "This is the meta description"
 ---
@@ -7,13 +7,13 @@ metaDescription: "This is the meta description"
 Some introduction text. Lists out all the headings from h1 to h6. Easy to customise.
 
 # Heading H1
-Heading 1 text
+Security 1 text
 
 ## Heading H2
-Heading 2 text
+Security 2 text
 
 ### Heading H3
-Heading 3 text
+Security 3 text
 
 #### Heading H4
 Heading 4 text
