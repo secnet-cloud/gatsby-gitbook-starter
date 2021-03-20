@@ -98,9 +98,5 @@ module.exports = {
     headerLinks: config.header.links,
     siteUrl: config.gatsby.siteUrl,
   },
-  plugins: [
-    `gatsby-plugin-image`,
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
-  ],
-};
+  plugins: plugins
+  };
