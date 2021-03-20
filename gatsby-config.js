@@ -99,4 +99,4 @@ module.exports = {
     siteUrl: config.gatsby.siteUrl,
   },
   plugins: plugins
-};
+  };
