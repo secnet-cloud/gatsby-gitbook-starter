@@ -98,5 +98,28 @@ module.exports = {
     headerLinks: config.header.links,
     siteUrl: config.gatsby.siteUrl,
   },
-  plugins: plugins
+  plugins: [
+        // ... other plugins
+        {
+            resolve: `gatsby-source-filesystem`,
+                options: {
+                    path: `${__dirname}/src/components/images`,
+                    name: 'blog-posts',
+                },
+        },
+        {
+            resolve: `gatsby-transformer-remark`,
+            options: {
+                plugins: [
+                    {
+                        resolve: `gatsby-remark-images`,
+                        options: {
+                            maxWidth: 590,
+                        },
+                    },
+                ],
+            },
+        },
+        // ... other plugins
+    ],
   };
