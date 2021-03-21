@@ -9,6 +9,8 @@ Some introduction text. Lists out all the headings from h1 to h6. Easy to custom
 # Heading H1
 Cloudy 1 text
 
+![A picture of a cute dog](./homepage-image.png)
+
 ## Heading H2
 CloudExtro 2 text
 

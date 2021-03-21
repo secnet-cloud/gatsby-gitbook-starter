@@ -76,7 +76,7 @@ export const baseStyles = css`
     border-radius: 1px;
     margin: 0 auto;
     margin-top: 4px;
-    background-color: #001934;
+    background-color: #41D1FF;
   }
   .navBarToggle .iconBar:first-child {
     margin-top: 0px;
@@ -320,7 +320,7 @@ export const baseStyles = css`
     border: 0 !important;
     background-color: rgb(245, 247, 249); /* !important; */
   }
-  
+
   blockquote {
     color: rgb(116, 129, 141);
     margin: 0px 0px 24px;
